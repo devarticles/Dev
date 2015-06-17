@@ -16,7 +16,7 @@ public class cryptotest {
 //            md= MessageDigest.getInstance("SHA-384"); //96
 
             
-            
+           //Crypto TEst 12345 
  
             md.update(message.getBytes());
             byte[] mb = md.digest();
