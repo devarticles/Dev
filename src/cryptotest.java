@@ -4,7 +4,7 @@ import java.security.*;
 public class cryptotest {
     public static void main(String[] args) throws NoSuchAlgorithmException {
         MessageDigest md;
-        String message = "password";
+        String message = "password"; //Password
         try {
               md= MessageDigest.getInstance("SHA-512"); // 128
             
