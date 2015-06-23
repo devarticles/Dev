@@ -6,8 +6,9 @@ public class SHAHashingExample
 {
     public static void main(String[] args)throws Exception
     {
-    	String password = "123456";
- 
+    	//String password = "123456";
+    	String password = "456789";
+    	 
         MessageDigest md = MessageDigest.getInstance("SHA-256");
         md.update(password.getBytes());
  
