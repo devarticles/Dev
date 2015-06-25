@@ -31,5 +31,8 @@ public class SHAHashingExample
     	}
     	//Add Test 
     	System.out.println("Hex format : " + hexString.toString());
+    	
+    	System.out.println("Done");
+    	
     }
 }
