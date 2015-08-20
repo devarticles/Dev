@@ -2,6 +2,7 @@
 import java.security.*;
  
 public class cryptotest {
+	
     public static void main(String[] args) throws NoSuchAlgorithmException {
         MessageDigest md;
         String message = "password"; //Password
